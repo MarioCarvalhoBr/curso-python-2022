@@ -1,0 +1,16 @@
+Modificar o código cadastro de pessoas:
+
+1 - Adicionar  o endereço e peso
+Exemplo de saída: Bem-vin@ Mário. Você tem 24 anos.
+ Você mora no endereço Campo Grande. E pesa 85 KG.
+
+
+2 - Verifiquem se a pessoa é maior de idade:
+    MAIOR DE IDADE: Você é maior de idade.
+    MENOR DE IDADE: Você é menor de idade. 
+
+
+Exemplo de saída: 
+Bem-vin@ Mário. Você tem 24 anos.
+ Você mora no endereço Campo Grande. E pesa 85 KG.
+ Você é maior de idade.
