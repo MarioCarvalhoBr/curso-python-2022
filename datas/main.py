@@ -1,4 +1,7 @@
 import datetime
+import locale
+locale.setlocale(locale.LC_ALL, "pt_br")
+
 
 data_atual = datetime.datetime.now()
 

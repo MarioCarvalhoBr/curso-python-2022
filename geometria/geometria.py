@@ -1,8 +1,8 @@
+import math
 def area_circulo(raio):
-    PI = 3,14
-    area = PI * (raio **2)
+    area = round(math.pi * math.pow(raio, 2), 2)
     return area
 
 def area_quadrado(lado):
-    area = lado ** 2
-    return area
+    area = math.pow(lado, 2)
+    return round(area, 2)
