@@ -1,0 +1,10 @@
+Canidae
+Felidae
+Cat
+Cattle
+Dog
+Donkey
+Goat
+Guinea pig
+Horse
+Pig
