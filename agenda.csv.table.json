@@ -1,0 +1,40 @@
+{
+  "columns": [
+    {
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false,
+      "width": 51
+    },
+    {
+      "field": "123;Mario;Carvalho;mario@email.com;98888-8888;Curso",
+      "title": "123;Mario;Carvalho;mario@email.com;98888-8888;Curso",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 406
+    },
+    {
+      "field": "de",
+      "title": "de",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 72
+    },
+    {
+      "field": "Python;22-02-1997",
+      "title": "Python;22-02-1997",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 176
+    }
+  ]
+}

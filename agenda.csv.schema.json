@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "name": "123;Mario;Carvalho;mario@email.com;98888-8888;Curso",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "de",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Python;22-02-1997",
+      "type": "string",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}
