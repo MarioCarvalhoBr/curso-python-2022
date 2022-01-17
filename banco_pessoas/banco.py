@@ -17,7 +17,7 @@ for i in aux_banco:
         # Limpeza da string
         i = i.replace("\n","")
         banco_contatos.append(i)
-
+    
 def inserir():
     print("\nInsira os dados do contato:\n")
     cpf = input("Digite o CPF: ")
@@ -67,7 +67,6 @@ def buscar_contato_cpf(cpf):
             print(f"CPF: {lista[0]}, nome: {lista[1]}, sobrenome: {lista[2]}")
             break
     return None
-
 
 def salvar():
     print("Salvando os contatos em um arquivo .csv")
