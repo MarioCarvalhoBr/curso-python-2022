@@ -2,11 +2,11 @@ global banco_contatos
 banco_contatos = []
 
 # Cria o arquivo se não existir
-arquivo = open("banco_pessoas/agenda.csv", "a+")
+arquivo = open("./agenda.csv", "a+")
 arquivo.close()
 
 # Abre pra leitura
-arquivo = open("banco_pessoas/agenda.csv", "r+")
+arquivo = open("./agenda.csv", "r+")
 aux_banco = arquivo.readlines()
 arquivo.close()
 
@@ -71,7 +71,7 @@ def buscar_contato_cpf(cpf):
 def salvar():
     print("Salvando os contatos em um arquivo .csv")
     # Salvar em arquivo a lista de contatos
-    arq = open("banco_pessoas/agenda.csv", "w")
+    arq = open("./agenda.csv", "w")
     tam = len(banco_contatos) 
     for i in range(tam):
         # limpa a string

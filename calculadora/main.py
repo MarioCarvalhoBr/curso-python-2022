@@ -24,3 +24,6 @@ except ValueError:
     print("Você inseriu um valor não numérico!")
 except:
     print("Erro ao entrar com os dados!")
+
+
+input("Digite sair e precione enter...")
