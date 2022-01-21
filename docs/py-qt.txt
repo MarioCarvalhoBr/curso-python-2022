@@ -1,3 +1,5 @@
+C:\Users\Estudante\AppData\Local\Programs\Python\Python310
+
 pip install PyQT5
 pip install pyqt5-tools
 
