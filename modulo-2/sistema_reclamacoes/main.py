@@ -1,5 +1,26 @@
+import os
+import sys
+
+PATH_ROOT =  os.path.dirname(__file__)
+PATH_BANCO = os.path.join(PATH_ROOT, "banco.csv")
+PATH_UI = os.path.join(PATH_ROOT, "tela.ui")
+
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
+PATH_BANCO = resource_path("banco.csv")
+PATH_UI = resource_path("tela.ui")
+
+
 # Importa as bibliotecas
-from ast import Index
 from PyQt6 import uic, QtWidgets
 
 from PyQt6.QtWidgets import QDialog, QMessageBox
@@ -10,7 +31,7 @@ import numpy as np
 # Criando a aplicação princial
 app = QtWidgets.QApplication([])
 global banco
-banco = pd.read_csv("modulo-2/sistema_reclamacoes/banco.csv", sep=";")
+banco = pd.read_csv(PATH_BANCO, sep=";")
 # print(banco.to_string())
 
 def enviar():
@@ -39,8 +60,9 @@ def sobre():
         print("OK!")
 
 def salvar():
-    banco.to_csv("modulo-2/sistema_reclamacoes/banco.csv", sep=";", index=False)
+    banco.to_csv(PATH_BANCO, sep=";", index=False)
     formulario.lbl_resultado.setText("Banco de dados salvo com sucesso!")
+
 def limpar():
     formulario.txt_titulo.setText("")
     formulario.txt_email.setText("")
@@ -58,7 +80,7 @@ def sair():
 
 # Carrego a ui - Link
 # Retorna: Formulário com os componentes; Window é a janela com form
-Form, Window  = uic.loadUiType("modulo-2/sistema_reclamacoes/tela.ui")
+Form, Window  = uic.loadUiType(PATH_UI)
 
 # Criar a Window() - Janela
 janela = Window()
