@@ -47,27 +47,30 @@
      </item>
     </layout>
    </widget>
-   <widget class="QListWidget" name="list_dados">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>41</y>
-      <width>641</width>
-      <height>251</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>280</x>
-      <y>20</y>
+      <y>15</y>
       <width>201</width>
-      <height>16</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>CLIENTES CADASTRADOS</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;CLIENTES CADASTRADOS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txt_tabela">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>641</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>

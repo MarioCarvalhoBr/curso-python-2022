@@ -127,7 +127,7 @@
      <rect>
       <x>60</x>
       <y>120</y>
-      <width>89</width>
+      <width>31</width>
       <height>20</height>
      </rect>
     </property>
@@ -140,7 +140,7 @@
      <rect>
       <x>100</x>
       <y>120</y>
-      <width>89</width>
+      <width>31</width>
       <height>20</height>
      </rect>
     </property>
@@ -230,6 +230,19 @@
     </property>
     <property name="text">
      <string>CANCELAR</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="btnr_ni">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>120</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NI</string>
     </property>
    </widget>
   </widget>

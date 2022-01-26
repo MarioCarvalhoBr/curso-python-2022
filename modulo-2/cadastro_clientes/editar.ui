@@ -40,12 +40,12 @@
      <string>OBS: </string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="tbnr_m">
+   <widget class="QRadioButton" name="btnr_m">
     <property name="geometry">
      <rect>
       <x>100</x>
       <y>110</y>
-      <width>89</width>
+      <width>31</width>
       <height>20</height>
      </rect>
     </property>
@@ -178,7 +178,7 @@
      <rect>
       <x>60</x>
       <y>110</y>
-      <width>89</width>
+      <width>31</width>
       <height>20</height>
      </rect>
     </property>
@@ -230,6 +230,19 @@
       <width>241</width>
       <height>22</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="btnr_ni">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>110</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NI</string>
     </property>
    </widget>
   </widget>

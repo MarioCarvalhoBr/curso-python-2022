@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'c:\Users\Estudante\Desktop\Projetos Python\curso-python-2022\modulo-2\cadastro_clientes\outros_codigos\reservar.ui'
+# Form implementation generated from reading ui file 'c:\Users\Estudante\Desktop\Projetos Python\curso-python-2022\modulo-2\cadastro_clientes\principal_textplain.ui'
 #
 # Created by: PyQt6 UI code generator 6.1.0
 #
@@ -12,15 +12,11 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(800, 600)
+        MainWindow.resize(754, 468)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.txt_tabela = QtWidgets.QTextEdit(self.centralwidget)
-        self.txt_tabela.setGeometry(QtCore.QRect(30, 10, 641, 51))
-        self.txt_tabela.setReadOnly(True)
-        self.txt_tabela.setObjectName("txt_tabela")
         self.horizontalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
-        self.horizontalLayoutWidget.setGeometry(QtCore.QRect(30, 320, 641, 61))
+        self.horizontalLayoutWidget.setGeometry(QtCore.QRect(60, 350, 641, 61))
         self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
@@ -34,12 +30,15 @@ class Ui_MainWindow(object):
         self.btn_excluir = QtWidgets.QPushButton(self.horizontalLayoutWidget)
         self.btn_excluir.setObjectName("btn_excluir")
         self.horizontalLayout.addWidget(self.btn_excluir)
-        self.list_dados = QtWidgets.QListWidget(self.centralwidget)
-        self.list_dados.setGeometry(QtCore.QRect(30, 70, 641, 192))
-        self.list_dados.setObjectName("list_dados")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(280, 15, 201, 21))
+        self.label.setObjectName("label")
+        self.txt_tabela = QtWidgets.QTextEdit(self.centralwidget)
+        self.txt_tabela.setGeometry(QtCore.QRect(60, 50, 641, 281))
+        self.txt_tabela.setObjectName("txt_tabela")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 22))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 754, 22))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -51,7 +50,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "CADASTRO DE CLIENTES"))
         self.btn_add.setText(_translate("MainWindow", "Adicionar"))
         self.btn_editar.setText(_translate("MainWindow", "Editar"))
         self.btn_excluir.setText(_translate("MainWindow", "Excluir"))
+        self.label.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:700;\">CLIENTES CADASTRADOS</span></p></body></html>"))
