@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'c:\Users\Estudante\Desktop\Projetos Python\curso-python-2022\modulo-2\projetos_gui\tela.ui'
+# Form implementation generated from reading ui file 'c:\Users\Estudante\Desktop\Projetos Python\curso-python-2022\modulo-2\projetos_gui\build\exe.win-amd64-3.9\tela.ui'
 #
 # Created by: PyQt6 UI code generator 6.1.0
 #

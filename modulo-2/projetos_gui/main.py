@@ -15,7 +15,7 @@ from PyQt6.QtWidgets import QMessageBox
 def get_path(relative_path):
     try:
         # PyInstaller creates a temp folder and stores path in _TEMP
-        base_path = sys._TEMP
+        base_path = getattr(sys, '_MEIPASS', os.getcwd())
     except Exception:
         base_path = os.path.abspath(".")
 
