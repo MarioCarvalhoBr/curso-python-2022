@@ -1,3 +1,8 @@
+class Circulo():
+    def __init__(self, raio):
+        self.pi = 3.14
+        self.raio = raio
+
 class Retangulo():
     def __init__(self, base, altura):
         self.base = base
@@ -20,12 +25,9 @@ class Retangulo():
     def __str__(self) -> str:
         texto = f"-----------\nBase: {self.base}\nAltura: {self.altura}\nArea: {self.area()}\nPerimetro: {self.perimetro()}\nValido: {self.valida()}\n-----------"
         return texto
-'''
-if __name__ == "__main__":
-    ret1 = Retangulo(10,5)
-    ret2 = Retangulo(0,5)
-    ret3 = Retangulo(0,-5)
-    print(ret1)
-    print(ret2)
-    print(ret3)
-'''
+
+ret1 = Retangulo(10,5)
+area = ret1.area()
+print(f"VALOR ESPERADO:{str(50)}")
+print(f"VALOR RETORNADO:{str(area)}")
+
