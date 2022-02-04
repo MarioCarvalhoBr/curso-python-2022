@@ -1,0 +1,18 @@
+#1 -  Baixar o Python 3.9
+https://www.python.org/ftp/python/3.9.8/python-3.9.8-amd64.exe
+
+# 2 - Instala Qt
+pip install PyQt6
+
+# 3 - Instalar Qt Designer
+pip install pyqt6-tools # or https://build-system.fman.io/qt-designer-download
+
+# 3.1 - Opcional caso o Qt Designer não instale:
+	- Baixar e instalar o .exe: https://build-system.fman.io/qt-designer-download
+
+PASTA DO QT DESIGNER: 
+C:\Users\SeuUsuárioAppData\Roaming\Python\Python39\site-packages\qt6_applications\Qt\bin
+	- Crie um atalho para o arquivo designer.exe na área de trabalho
+
+Curso de PyQt5 : 
+https://www.youtube.com/playlist?list=PLwsAoT89dh3qJ8JcprQ8AuHY8AGasvx4G
